@@ -6,10 +6,20 @@
 }
 
 p {
-    font-size: 18px;
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    margin-top: 3px;
+    margin-bottom: 3px;
 }
 
 li {
-    font-size: 18px;
-    margin-left: 18px;
+    font-family: Arial, sans-serif;
+    font-size: 14px;
+    margin-top: 2px;
+    margin-bottom: 2px;
+}
+
+ol {
+    margin: 0;
+    margin-left: 14px;
 }

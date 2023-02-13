@@ -4,8 +4,10 @@ Parse cppcheck output XML files into CSV file
 
 
 import csv
-import requests
 import xml.etree.ElementTree as ET
+import jinja2
+import pdfkit
+from datetime import datetime
 
 fields = [
     "id",
@@ -140,10 +142,6 @@ def main():
     print(rule_violation_per_category)
     print("total #rules:", len(rule_violation_cnt.keys()))
 
-    import jinja2
-    import pdfkit
-    from datetime import datetime
-
     vio_mand = len(rule_violation_per_category["Mandatory"])
     vio_req = len(rule_violation_per_category["Required"])
     vio_adv = len(rule_violation_per_category["Advisory"])
@@ -158,7 +156,7 @@ def main():
     if vio_adv > 1:
         advisory_str += "s"
 
-    today_date = datetime.today().strftime("%b %d, %Y")
+    today_date = datetime.today().strftime("%m/%d/%Y")
 
     context = {
         "compliance_str": compliance_str,
@@ -188,13 +186,20 @@ def main():
             rule_end = line.find("</")
             rule_id = line[has_rule + 5 : rule_end]
             cnt = rule_violation_cnt[rule_id]
-            cnt_pos = lines[i + 2].find(">")
-            lines[i + 2] = (
-                lines[i + 2][: cnt_pos + 1]
-                + str(cnt)
-                + lines[i + 2][cnt_pos + 2 :]
-            )
-            i += 3
+            if cnt > 0:
+                cnt_pos = lines[i + 3].find(">")
+                lines[i + 3] = (
+                    lines[i + 3][: cnt_pos + 1]
+                    + str(cnt)
+                    + lines[i + 3][cnt_pos + 2 :]
+                )
+                cell_class_pos = lines[i + 3].find("tg-") + 3
+                lines[i + 3] = (
+                    lines[i + 3][:cell_class_pos]
+                    + "r31r"
+                    + lines[i + 3][cell_class_pos + 4 :]
+                )
+            i += 4
         else:
             i += 1
 
