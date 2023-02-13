@@ -1,0 +1,6 @@
+{
+	"script": "misra.py",
+	"args": [
+		"--rule-texts=/home/tina/Applications/cppcheck-2.10/addons/misra_rules.txt"
+	]
+}
