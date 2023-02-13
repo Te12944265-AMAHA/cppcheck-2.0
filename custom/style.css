@@ -1,7 +1,15 @@
+@page {
+    margin-top: 2in !important;
+    margin-bottom: 2in !important;
+    margin-left: 1.5in !important;
+    margin-right: 1.5in !important;
+}
+
 p {
-    font-size: 24px;
+    font-size: 18px;
 }
 
 li {
-    font-size: 24px;
+    font-size: 18px;
+    margin-left: 18px;
 }

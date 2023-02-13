@@ -170,6 +170,15 @@ def main():
 
     html_template = read_file("table_template.html")
     pos_table_body_start = html_template.find("<tbody>")
+    lines_before_tbody = html_template[:pos_table_body_start].splitlines()
+    for i, line in enumerate(lines_before_tbody):
+        if line.find("Result:") >= 0:
+            if compliance_str == "Compliant":
+                lines_before_tbody.pop(i + 1)
+            else:
+                lines_before_tbody.pop(i + 2)
+            break
+
     lines = html_template[pos_table_body_start:].splitlines()
     i = 0
     while i < len(lines):
@@ -190,7 +199,7 @@ def main():
             i += 1
 
     path_to_file = "new_html.html"
-    new_html = html_template[:pos_table_body_start] + "\n".join(lines)
+    new_html = "\n".join(lines_before_tbody) + "\n".join(lines)
     write_file(path_to_file, new_html)
 
     template_loader = jinja2.FileSystemLoader("./")
