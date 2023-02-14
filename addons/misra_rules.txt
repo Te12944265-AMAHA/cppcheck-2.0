@@ -189,9 +189,9 @@ Evaluation of constant expressions should not lead to unsigned integer
 wrap-around
 
 Rule 13.1 Required
-Initializer lists shall not contain persistent side eﬀects
+Initializer lists shall not contain persistent side effects
 Rule 13.2 Required
-The value of an expression and its persistent side eﬀ ects shall be the
+The value of an expression and its persistent side effects shall be the
 same under all permitted evaluation orders
 Rule 13.3 Advisory
 A full expression containing an increment (++) or decrement (--)
@@ -201,10 +201,10 @@ Rule 13.4 Advisory
 The result of an assignment operator should not be used
 Rule 13.5 Required
 The right hand operand of a logical && or || operator shall not contain
-persistent side eﬀects
+persistent side effects
 Rule 13.6 Mandatory
 The operand of the sizeof operator shall not contain any expression
-which has potential side eﬀects
+which has potential side effects
 Rule 14.1 Required
 A loop counter shall not have essentially floating type
 Rule 14.2 Required

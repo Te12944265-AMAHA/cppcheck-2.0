@@ -660,7 +660,7 @@
             <location file="blaser_slam/slam_estimator/src/encoder/encoder_manager.h" line="22" column="18"/>
         </error>
         <error id="misra-c2012-17.2" severity="style" msg="Functions shall not call themselves, either directly or indirectly" verbose="Functions shall not call themselves, either directly or indirectly" file0="blaser_slam/slam_estimator/src/encoder/encoder_manager.cpp.dump">
-            <location file="blaser_slam/slam_estimator/src/utility/utility.h" line="266" column="22"/>
+            <location file="blaser_slam/slam_estimator/src/utility/utility.h" line="267" column="22"/>
         </error>
         <error id="uninitvar" severity="error" msg="Uninitialized variable: tmp_feature.depth" verbose="Uninitialized variable: tmp_feature.depth" cwe="457" file0="blaser_slam/slam_estimator/src/estimator.cpp">
             <location file="blaser_slam/slam_estimator/src/estimator.cpp" line="636" column="25"/>
@@ -734,82 +734,82 @@
             <location file="blaser_slam/slam_estimator/src/utility/nanoflann.hpp" line="720" column="57"/>
         </error>
         <error id="misra-c2012-12.3" severity="style" msg="The comma operator should not be used" verbose="The comma operator should not be used" file0="blaser_slam/slam_estimator/src/estimator.cpp.dump">
-            <location file="blaser_slam/slam_estimator/src/utility/nanoflann.hpp" line="1465" column="28"/>
+            <location file="blaser_slam/slam_estimator/src/utility/nanoflann.hpp" line="1473" column="28"/>
         </error>
         <error id="misra-c2012-12.3" severity="style" msg="The comma operator should not be used" verbose="The comma operator should not be used" file0="blaser_slam/slam_estimator/src/estimator.cpp.dump">
-            <location file="blaser_slam/slam_estimator/src/utility/nanoflann.hpp" line="1469" column="17"/>
+            <location file="blaser_slam/slam_estimator/src/utility/nanoflann.hpp" line="1477" column="17"/>
         </error>
         <error id="misra-c2012-12.3" severity="style" msg="The comma operator should not be used" verbose="The comma operator should not be used" file0="blaser_slam/slam_estimator/src/estimator.cpp.dump">
-            <location file="blaser_slam/slam_estimator/src/utility/nanoflann.hpp" line="1470" column="17"/>
+            <location file="blaser_slam/slam_estimator/src/utility/nanoflann.hpp" line="1478" column="17"/>
         </error>
         <error id="misra-c2012-12.3" severity="style" msg="The comma operator should not be used" verbose="The comma operator should not be used" file0="blaser_slam/slam_estimator/src/estimator.cpp.dump">
-            <location file="blaser_slam/slam_estimator/src/utility/nanoflann.hpp" line="1526" column="0"/>
+            <location file="blaser_slam/slam_estimator/src/utility/nanoflann.hpp" line="1534" column="0"/>
         </error>
         <error id="misra-c2012-12.3" severity="style" msg="The comma operator should not be used" verbose="The comma operator should not be used" file0="blaser_slam/slam_estimator/src/estimator.cpp.dump">
-            <location file="blaser_slam/slam_estimator/src/utility/nanoflann.hpp" line="1527" column="0"/>
+            <location file="blaser_slam/slam_estimator/src/utility/nanoflann.hpp" line="1535" column="0"/>
         </error>
         <error id="misra-c2012-12.3" severity="style" msg="The comma operator should not be used" verbose="The comma operator should not be used" file0="blaser_slam/slam_estimator/src/estimator.cpp.dump">
-            <location file="blaser_slam/slam_estimator/src/utility/nanoflann.hpp" line="1528" column="0"/>
+            <location file="blaser_slam/slam_estimator/src/utility/nanoflann.hpp" line="1536" column="0"/>
         </error>
         <error id="misra-c2012-12.3" severity="style" msg="The comma operator should not be used" verbose="The comma operator should not be used" file0="blaser_slam/slam_estimator/src/estimator.cpp.dump">
-            <location file="blaser_slam/slam_estimator/src/utility/nanoflann.hpp" line="1531" column="0"/>
+            <location file="blaser_slam/slam_estimator/src/utility/nanoflann.hpp" line="1539" column="0"/>
         </error>
         <error id="misra-c2012-12.3" severity="style" msg="The comma operator should not be used" verbose="The comma operator should not be used" file0="blaser_slam/slam_estimator/src/estimator.cpp.dump">
-            <location file="blaser_slam/slam_estimator/src/utility/nanoflann.hpp" line="1557" column="0"/>
+            <location file="blaser_slam/slam_estimator/src/utility/nanoflann.hpp" line="1565" column="0"/>
         </error>
         <error id="misra-c2012-12.3" severity="style" msg="The comma operator should not be used" verbose="The comma operator should not be used" file0="blaser_slam/slam_estimator/src/estimator.cpp.dump">
-            <location file="blaser_slam/slam_estimator/src/utility/nanoflann.hpp" line="1561" column="0"/>
+            <location file="blaser_slam/slam_estimator/src/utility/nanoflann.hpp" line="1569" column="0"/>
         </error>
         <error id="misra-c2012-12.3" severity="style" msg="The comma operator should not be used" verbose="The comma operator should not be used" file0="blaser_slam/slam_estimator/src/estimator.cpp.dump">
-            <location file="blaser_slam/slam_estimator/src/utility/nanoflann.hpp" line="1593" column="0"/>
+            <location file="blaser_slam/slam_estimator/src/utility/nanoflann.hpp" line="1601" column="0"/>
         </error>
         <error id="misra-c2012-12.3" severity="style" msg="The comma operator should not be used" verbose="The comma operator should not be used" file0="blaser_slam/slam_estimator/src/estimator.cpp.dump">
-            <location file="blaser_slam/slam_estimator/src/utility/nanoflann.hpp" line="1597" column="0"/>
+            <location file="blaser_slam/slam_estimator/src/utility/nanoflann.hpp" line="1605" column="0"/>
         </error>
         <error id="misra-c2012-12.3" severity="style" msg="The comma operator should not be used" verbose="The comma operator should not be used" file0="blaser_slam/slam_estimator/src/estimator.cpp.dump">
-            <location file="blaser_slam/slam_estimator/src/utility/nanoflann.hpp" line="1709" column="0"/>
+            <location file="blaser_slam/slam_estimator/src/utility/nanoflann.hpp" line="1717" column="0"/>
         </error>
         <error id="misra-c2012-12.3" severity="style" msg="The comma operator should not be used" verbose="The comma operator should not be used" file0="blaser_slam/slam_estimator/src/estimator.cpp.dump">
-            <location file="blaser_slam/slam_estimator/src/utility/nanoflann.hpp" line="1727" column="0"/>
+            <location file="blaser_slam/slam_estimator/src/utility/nanoflann.hpp" line="1735" column="0"/>
         </error>
         <error id="misra-c2012-12.3" severity="style" msg="The comma operator should not be used" verbose="The comma operator should not be used" file0="blaser_slam/slam_estimator/src/estimator.cpp.dump">
-            <location file="blaser_slam/slam_estimator/src/utility/nanoflann.hpp" line="1728" column="0"/>
+            <location file="blaser_slam/slam_estimator/src/utility/nanoflann.hpp" line="1736" column="0"/>
         </error>
         <error id="misra-c2012-12.3" severity="style" msg="The comma operator should not be used" verbose="The comma operator should not be used" file0="blaser_slam/slam_estimator/src/estimator.cpp.dump">
-            <location file="blaser_slam/slam_estimator/src/utility/nanoflann.hpp" line="1729" column="0"/>
+            <location file="blaser_slam/slam_estimator/src/utility/nanoflann.hpp" line="1737" column="0"/>
         </error>
         <error id="misra-c2012-12.3" severity="style" msg="The comma operator should not be used" verbose="The comma operator should not be used" file0="blaser_slam/slam_estimator/src/estimator.cpp.dump">
-            <location file="blaser_slam/slam_estimator/src/utility/nanoflann.hpp" line="1731" column="0"/>
+            <location file="blaser_slam/slam_estimator/src/utility/nanoflann.hpp" line="1739" column="0"/>
         </error>
         <error id="misra-c2012-12.3" severity="style" msg="The comma operator should not be used" verbose="The comma operator should not be used" file0="blaser_slam/slam_estimator/src/estimator.cpp.dump">
-            <location file="blaser_slam/slam_estimator/src/utility/nanoflann.hpp" line="1732" column="0"/>
+            <location file="blaser_slam/slam_estimator/src/utility/nanoflann.hpp" line="1740" column="0"/>
         </error>
         <error id="misra-c2012-12.3" severity="style" msg="The comma operator should not be used" verbose="The comma operator should not be used" file0="blaser_slam/slam_estimator/src/estimator.cpp.dump">
-            <location file="blaser_slam/slam_estimator/src/utility/nanoflann.hpp" line="1733" column="0"/>
+            <location file="blaser_slam/slam_estimator/src/utility/nanoflann.hpp" line="1741" column="0"/>
         </error>
         <error id="misra-c2012-12.3" severity="style" msg="The comma operator should not be used" verbose="The comma operator should not be used" file0="blaser_slam/slam_estimator/src/estimator.cpp.dump">
-            <location file="blaser_slam/slam_estimator/src/utility/nanoflann.hpp" line="1747" column="0"/>
+            <location file="blaser_slam/slam_estimator/src/utility/nanoflann.hpp" line="1756" column="0"/>
         </error>
         <error id="misra-c2012-12.3" severity="style" msg="The comma operator should not be used" verbose="The comma operator should not be used" file0="blaser_slam/slam_estimator/src/estimator.cpp.dump">
-            <location file="blaser_slam/slam_estimator/src/utility/nanoflann.hpp" line="1786" column="28"/>
+            <location file="blaser_slam/slam_estimator/src/utility/nanoflann.hpp" line="1796" column="28"/>
         </error>
         <error id="misra-c2012-12.3" severity="style" msg="The comma operator should not be used" verbose="The comma operator should not be used" file0="blaser_slam/slam_estimator/src/estimator.cpp.dump">
-            <location file="blaser_slam/slam_estimator/src/utility/nanoflann.hpp" line="1813" column="0"/>
+            <location file="blaser_slam/slam_estimator/src/utility/nanoflann.hpp" line="1823" column="0"/>
         </error>
         <error id="misra-c2012-12.3" severity="style" msg="The comma operator should not be used" verbose="The comma operator should not be used" file0="blaser_slam/slam_estimator/src/estimator.cpp.dump">
-            <location file="blaser_slam/slam_estimator/src/utility/nanoflann.hpp" line="1818" column="0"/>
+            <location file="blaser_slam/slam_estimator/src/utility/nanoflann.hpp" line="1828" column="0"/>
         </error>
         <error id="misra-c2012-12.3" severity="style" msg="The comma operator should not be used" verbose="The comma operator should not be used" file0="blaser_slam/slam_estimator/src/estimator.cpp.dump">
-            <location file="blaser_slam/slam_estimator/src/utility/nanoflann.hpp" line="1953" column="27"/>
+            <location file="blaser_slam/slam_estimator/src/utility/nanoflann.hpp" line="1963" column="27"/>
         </error>
         <error id="misra-c2012-12.3" severity="style" msg="The comma operator should not be used" verbose="The comma operator should not be used" file0="blaser_slam/slam_estimator/src/estimator.cpp.dump">
-            <location file="blaser_slam/slam_estimator/src/utility/nanoflann.hpp" line="1980" column="0"/>
+            <location file="blaser_slam/slam_estimator/src/utility/nanoflann.hpp" line="1990" column="0"/>
         </error>
         <error id="misra-c2012-12.3" severity="style" msg="The comma operator should not be used" verbose="The comma operator should not be used" file0="blaser_slam/slam_estimator/src/estimator.cpp.dump">
-            <location file="blaser_slam/slam_estimator/src/utility/nanoflann.hpp" line="2010" column="0"/>
+            <location file="blaser_slam/slam_estimator/src/utility/nanoflann.hpp" line="2020" column="0"/>
         </error>
         <error id="misra-c2012-12.3" severity="style" msg="The comma operator should not be used" verbose="The comma operator should not be used" file0="blaser_slam/slam_estimator/src/estimator.cpp.dump">
-            <location file="blaser_slam/slam_estimator/src/utility/nanoflann.hpp" line="2011" column="0"/>
+            <location file="blaser_slam/slam_estimator/src/utility/nanoflann.hpp" line="2021" column="0"/>
         </error>
         <error id="misra-c2012-12.3" severity="style" msg="The comma operator should not be used" verbose="The comma operator should not be used" file0="blaser_slam/slam_estimator/src/estimator.cpp.dump">
             <location file="blaser_slam/slam_estimator/src/utility/tic_toc.h" line="42" column="61"/>
@@ -1580,13 +1580,13 @@
             <location file="blaser_slam/slam_estimator/src/utility/nanoflann.hpp" line="773" column="20"/>
         </error>
         <error id="misra-c2012-12.3" severity="style" msg="The comma operator should not be used" verbose="The comma operator should not be used" file0="blaser_slam/slam_estimator/src/estimator.cpp.dump">
-            <location file="blaser_slam/slam_estimator/src/utility/nanoflann.hpp" line="926" column="29"/>
+            <location file="blaser_slam/slam_estimator/src/utility/nanoflann.hpp" line="928" column="29"/>
         </error>
         <error id="misra-c2012-12.3" severity="style" msg="The comma operator should not be used" verbose="The comma operator should not be used" file0="blaser_slam/slam_estimator/src/estimator.cpp.dump">
-            <location file="blaser_slam/slam_estimator/src/utility/nanoflann.hpp" line="938" column="25"/>
+            <location file="blaser_slam/slam_estimator/src/utility/nanoflann.hpp" line="940" column="25"/>
         </error>
         <error id="misra-c2012-12.3" severity="style" msg="The comma operator should not be used" verbose="The comma operator should not be used" file0="blaser_slam/slam_estimator/src/estimator.cpp.dump">
-            <location file="blaser_slam/slam_estimator/src/utility/nanoflann.hpp" line="948" column="19"/>
+            <location file="blaser_slam/slam_estimator/src/utility/nanoflann.hpp" line="950" column="19"/>
         </error>
         <error id="misra-c2012-12.3" severity="style" msg="The comma operator should not be used" verbose="The comma operator should not be used" file0="blaser_slam/slam_estimator/src/estimator.cpp.dump">
             <location file="blaser_slam/slam_estimator/src/utility/nanoflann.hpp" line="442" column="23"/>
@@ -1598,34 +1598,34 @@
             <location file="blaser_slam/slam_estimator/src/utility/nanoflann.hpp" line="261" column="22"/>
         </error>
         <error id="misra-c2012-17.2" severity="style" msg="Functions shall not call themselves, either directly or indirectly" verbose="Functions shall not call themselves, either directly or indirectly" file0="blaser_slam/slam_estimator/src/estimator.cpp.dump">
-            <location file="blaser_slam/slam_estimator/src/utility/nanoflann.hpp" line="1745" column="5"/>
+            <location file="blaser_slam/slam_estimator/src/utility/nanoflann.hpp" line="1754" column="5"/>
         </error>
         <error id="misra-c2012-17.2" severity="style" msg="Functions shall not call themselves, either directly or indirectly" verbose="Functions shall not call themselves, either directly or indirectly" file0="blaser_slam/slam_estimator/src/estimator.cpp.dump">
-            <location file="blaser_slam/slam_estimator/src/utility/nanoflann.hpp" line="1751" column="7"/>
+            <location file="blaser_slam/slam_estimator/src/utility/nanoflann.hpp" line="1761" column="7"/>
         </error>
         <error id="misra-c2012-17.2" severity="style" msg="Functions shall not call themselves, either directly or indirectly" verbose="Functions shall not call themselves, either directly or indirectly" file0="blaser_slam/slam_estimator/src/estimator.cpp.dump">
-            <location file="blaser_slam/slam_estimator/src/utility/nanoflann.hpp" line="1391" column="10"/>
+            <location file="blaser_slam/slam_estimator/src/utility/nanoflann.hpp" line="1398" column="10"/>
         </error>
         <error id="misra-c2012-17.2" severity="style" msg="Functions shall not call themselves, either directly or indirectly" verbose="Functions shall not call themselves, either directly or indirectly" file0="blaser_slam/slam_estimator/src/estimator.cpp.dump">
-            <location file="blaser_slam/slam_estimator/src/utility/nanoflann.hpp" line="1401" column="12"/>
+            <location file="blaser_slam/slam_estimator/src/utility/nanoflann.hpp" line="1409" column="12"/>
         </error>
         <error id="misra-c2012-17.2" severity="style" msg="Functions shall not call themselves, either directly or indirectly" verbose="Functions shall not call themselves, either directly or indirectly" file0="blaser_slam/slam_estimator/src/estimator.cpp.dump">
-            <location file="blaser_slam/slam_estimator/src/utility/nanoflann.hpp" line="892" column="22"/>
+            <location file="blaser_slam/slam_estimator/src/utility/nanoflann.hpp" line="893" column="22"/>
         </error>
         <error id="misra-c2012-17.2" severity="style" msg="Functions shall not call themselves, either directly or indirectly" verbose="Functions shall not call themselves, either directly or indirectly" file0="blaser_slam/slam_estimator/src/estimator.cpp.dump">
-            <location file="blaser_slam/slam_estimator/src/utility/nanoflann.hpp" line="896" column="22"/>
-        </error>
-        <error id="misra-c2012-17.2" severity="style" msg="Functions shall not call themselves, either directly or indirectly" verbose="Functions shall not call themselves, either directly or indirectly" file0="blaser_slam/slam_estimator/src/estimator.cpp.dump">
-            <location file="blaser_slam/slam_estimator/src/utility/nanoflann.hpp" line="1028" column="7"/>
+            <location file="blaser_slam/slam_estimator/src/utility/nanoflann.hpp" line="898" column="22"/>
         </error>
         <error id="misra-c2012-17.2" severity="style" msg="Functions shall not call themselves, either directly or indirectly" verbose="Functions shall not call themselves, either directly or indirectly" file0="blaser_slam/slam_estimator/src/estimator.cpp.dump">
             <location file="blaser_slam/slam_estimator/src/utility/nanoflann.hpp" line="1031" column="7"/>
         </error>
         <error id="misra-c2012-17.2" severity="style" msg="Functions shall not call themselves, either directly or indirectly" verbose="Functions shall not call themselves, either directly or indirectly" file0="blaser_slam/slam_estimator/src/estimator.cpp.dump">
-            <location file="blaser_slam/slam_estimator/src/utility/nanoflann.hpp" line="1039" column="7"/>
+            <location file="blaser_slam/slam_estimator/src/utility/nanoflann.hpp" line="1035" column="7"/>
         </error>
         <error id="misra-c2012-17.2" severity="style" msg="Functions shall not call themselves, either directly or indirectly" verbose="Functions shall not call themselves, either directly or indirectly" file0="blaser_slam/slam_estimator/src/estimator.cpp.dump">
-            <location file="blaser_slam/slam_estimator/src/utility/nanoflann.hpp" line="1042" column="7"/>
+            <location file="blaser_slam/slam_estimator/src/utility/nanoflann.hpp" line="1044" column="7"/>
+        </error>
+        <error id="misra-c2012-17.2" severity="style" msg="Functions shall not call themselves, either directly or indirectly" verbose="Functions shall not call themselves, either directly or indirectly" file0="blaser_slam/slam_estimator/src/estimator.cpp.dump">
+            <location file="blaser_slam/slam_estimator/src/utility/nanoflann.hpp" line="1048" column="7"/>
         </error>
         <error id="misra-c2012-12.3" severity="style" msg="The comma operator should not be used" verbose="The comma operator should not be used" file0="blaser_slam/slam_estimator/src/estimator_node.cpp.dump">
             <location file="blaser_slam/slam_estimator/src/estimator_node.cpp" line="488" column="60"/>
@@ -1653,9 +1653,6 @@
         </error>
         <error id="misra-c2012-12.3" severity="style" msg="The comma operator should not be used" verbose="The comma operator should not be used" file0="blaser_slam/slam_estimator/src/factor/lidar_2d_factor.cpp.dump">
             <location file="blaser_slam/slam_estimator/src/factor/lidar_2d_factor.cpp" line="19" column="28"/>
-        </error>
-        <error id="misra-c2012-2.2" severity="style" msg="There shall be no dead code" verbose="There shall be no dead code" file0="blaser_slam/slam_estimator/src/factor/marginalization_factor.cpp.dump">
-            <location file="blaser_slam/slam_estimator/src/factor/marginalization_factor.cpp" line="411" column="33"/>
         </error>
         <error id="misra-c2012-12.3" severity="style" msg="The comma operator should not be used" verbose="The comma operator should not be used" file0="blaser_slam/slam_estimator/src/factor/marginalization_factor.cpp.dump">
             <location file="blaser_slam/slam_estimator/src/factor/marginalization_factor.cpp" line="48" column="33"/>
@@ -1713,9 +1710,6 @@
         </error>
         <error id="misra-c2012-12.3" severity="style" msg="The comma operator should not be used" verbose="The comma operator should not be used" file0="blaser_slam/slam_estimator/src/factor/pose_local_parameterization.cpp.dump">
             <location file="blaser_slam/slam_estimator/src/factor/pose_local_parameterization.cpp" line="26" column="42"/>
-        </error>
-        <error id="misra-c2012-2.2" severity="style" msg="There shall be no dead code" verbose="There shall be no dead code" file0="blaser_slam/slam_estimator/src/factor/projection_factor.cpp.dump">
-            <location file="blaser_slam/slam_estimator/src/factor/projection_factor.cpp" line="185" column="30"/>
         </error>
         <error id="misra-c2012-12.3" severity="style" msg="The comma operator should not be used" verbose="The comma operator should not be used" file0="blaser_slam/slam_estimator/src/factor/projection_factor.cpp.dump">
             <location file="blaser_slam/slam_estimator/src/factor/projection_factor.cpp" line="8" column="35"/>
@@ -1777,9 +1771,6 @@
         <error id="misra-c2012-12.3" severity="style" msg="The comma operator should not be used" verbose="The comma operator should not be used" file0="blaser_slam/slam_estimator/src/factor/projection_factor.cpp.dump">
             <location file="blaser_slam/slam_estimator/src/factor/projection_factor.cpp" line="260" column="22"/>
         </error>
-        <error id="misra-c2012-2.2" severity="style" msg="There shall be no dead code" verbose="There shall be no dead code" file0="blaser_slam/slam_estimator/src/factor/projection_fixdepth_td_factor.cpp.dump">
-            <location file="blaser_slam/slam_estimator/src/factor/projection_fixdepth_td_factor.cpp" line="166" column="28"/>
-        </error>
         <error id="misra-c2012-12.3" severity="style" msg="The comma operator should not be used" verbose="The comma operator should not be used" file0="blaser_slam/slam_estimator/src/factor/projection_fixdepth_td_factor.cpp.dump">
             <location file="blaser_slam/slam_estimator/src/factor/projection_fixdepth_td_factor.cpp" line="12" column="14"/>
         </error>
@@ -1836,12 +1827,6 @@
         </error>
         <error id="misra-c2012-12.3" severity="style" msg="The comma operator should not be used" verbose="The comma operator should not be used" file0="blaser_slam/slam_estimator/src/factor/projection_fixdepth_td_factor.cpp.dump">
             <location file="blaser_slam/slam_estimator/src/factor/projection_fixdepth_td_factor.cpp" line="259" column="29"/>
-        </error>
-        <error id="misra-c2012-2.2" severity="style" msg="There shall be no dead code" verbose="There shall be no dead code" file0="blaser_slam/slam_estimator/src/factor/projection_td_factor.cpp.dump">
-            <location file="blaser_slam/slam_estimator/src/factor/projection_td_factor.cpp" line="202" column="30"/>
-        </error>
-        <error id="misra-c2012-2.2" severity="style" msg="There shall be no dead code" verbose="There shall be no dead code" file0="blaser_slam/slam_estimator/src/factor/projection_td_factor.cpp.dump">
-            <location file="blaser_slam/slam_estimator/src/factor/projection_td_factor.cpp" line="203" column="30"/>
         </error>
         <error id="misra-c2012-12.3" severity="style" msg="The comma operator should not be used" verbose="The comma operator should not be used" file0="blaser_slam/slam_estimator/src/factor/projection_td_factor.cpp.dump">
             <location file="blaser_slam/slam_estimator/src/factor/projection_td_factor.cpp" line="20" column="48"/>
@@ -2527,9 +2512,6 @@
         <error id="misra-c2012-12.3" severity="style" msg="The comma operator should not be used" verbose="The comma operator should not be used" file0="blaser_slam/slam_estimator/src/test/lidar_test_cylinder_factor_p2a.cpp.dump">
             <location file="blaser_slam/slam_estimator/src/test/lidar_test_cylinder_factor_p2a.cpp" line="149" column="28"/>
         </error>
-        <error id="misra-c2012-2.2" severity="style" msg="There shall be no dead code" verbose="There shall be no dead code" file0="blaser_slam/slam_estimator/src/test/lidar_test_feature_extraction.cpp.dump">
-            <location file="blaser_slam/slam_estimator/src/test/lidar_test_feature_extraction.cpp" line="60" column="22"/>
-        </error>
         <error id="misra-c2012-12.3" severity="style" msg="The comma operator should not be used" verbose="The comma operator should not be used" file0="blaser_slam/slam_estimator/src/test/lidar_test_icp.cpp.dump">
             <location file="blaser_slam/slam_estimator/src/test/lidar_test_icp.cpp" line="94" column="32"/>
         </error>
@@ -2547,15 +2529,6 @@
         </error>
         <error id="misra-c2012-12.3" severity="style" msg="The comma operator should not be used" verbose="The comma operator should not be used" file0="blaser_slam/slam_estimator/src/test/lidar_tmp.cpp.dump">
             <location file="blaser_slam/slam_estimator/src/test/lidar_tmp.cpp" line="81" column="21"/>
-        </error>
-        <error id="misra-c2012-2.2" severity="style" msg="There shall be no dead code" verbose="There shall be no dead code" file0="blaser_slam/slam_estimator/src/test/lidar_to_map_alignment_test.cpp.dump">
-            <location file="blaser_slam/slam_estimator/src/test/lidar_to_map_alignment_test.cpp" line="266" column="30"/>
-        </error>
-        <error id="misra-c2012-2.2" severity="style" msg="There shall be no dead code" verbose="There shall be no dead code" file0="blaser_slam/slam_estimator/src/test/lidar_to_map_alignment_test.cpp.dump">
-            <location file="blaser_slam/slam_estimator/src/test/lidar_to_map_alignment_test.cpp" line="272" column="34"/>
-        </error>
-        <error id="misra-c2012-2.2" severity="style" msg="There shall be no dead code" verbose="There shall be no dead code" file0="blaser_slam/slam_estimator/src/test/lidar_to_map_alignment_test.cpp.dump">
-            <location file="blaser_slam/slam_estimator/src/test/lidar_to_map_alignment_test.cpp" line="279" column="36"/>
         </error>
         <error id="misra-c2012-12.3" severity="style" msg="The comma operator should not be used" verbose="The comma operator should not be used" file0="blaser_slam/slam_estimator/src/test/lidar_to_map_alignment_test.cpp.dump">
             <location file="blaser_slam/slam_estimator/src/test/lidar_to_map_alignment_test.cpp" line="70" column="20"/>
@@ -2660,49 +2633,46 @@
             <location file="pipe_blaser_ros/src/laser_ring_calib.cpp" line="120" column="27"/>
         </error>
         <error id="misra-c2012-12.3" severity="style" msg="The comma operator should not be used" verbose="The comma operator should not be used" file0="pipe_blaser_ros/src/laser_ring_calib.cpp.dump">
-            <location file="pipe_blaser_ros/src/laser_ring_calib.cpp" line="199" column="43"/>
+            <location file="pipe_blaser_ros/src/laser_ring_calib.cpp" line="200" column="43"/>
         </error>
         <error id="misra-c2012-12.3" severity="style" msg="The comma operator should not be used" verbose="The comma operator should not be used" file0="pipe_blaser_ros/src/laser_ring_calib.cpp.dump">
-            <location file="pipe_blaser_ros/src/laser_ring_calib.cpp" line="200" column="40"/>
+            <location file="pipe_blaser_ros/src/laser_ring_calib.cpp" line="201" column="40"/>
         </error>
         <error id="misra-c2012-12.3" severity="style" msg="The comma operator should not be used" verbose="The comma operator should not be used" file0="pipe_blaser_ros/src/laser_ring_calib.cpp.dump">
-            <location file="pipe_blaser_ros/src/laser_ring_calib.cpp" line="222" column="36"/>
+            <location file="pipe_blaser_ros/src/laser_ring_calib.cpp" line="223" column="36"/>
         </error>
         <error id="misra-c2012-12.3" severity="style" msg="The comma operator should not be used" verbose="The comma operator should not be used" file0="pipe_blaser_ros/src/laser_ring_calib.cpp.dump">
-            <location file="pipe_blaser_ros/src/laser_ring_calib.cpp" line="259" column="23"/>
+            <location file="pipe_blaser_ros/src/laser_ring_calib.cpp" line="260" column="23"/>
         </error>
         <error id="misra-c2012-12.3" severity="style" msg="The comma operator should not be used" verbose="The comma operator should not be used" file0="pipe_blaser_ros/src/laser_ring_calib.cpp.dump">
-            <location file="pipe_blaser_ros/src/laser_ring_calib.cpp" line="270" column="35"/>
+            <location file="pipe_blaser_ros/src/laser_ring_calib.cpp" line="271" column="35"/>
         </error>
         <error id="misra-c2012-12.3" severity="style" msg="The comma operator should not be used" verbose="The comma operator should not be used" file0="pipe_blaser_ros/src/laser_ring_calib.cpp.dump">
-            <location file="pipe_blaser_ros/src/laser_ring_calib.cpp" line="278" column="38"/>
+            <location file="pipe_blaser_ros/src/laser_ring_calib.cpp" line="279" column="38"/>
         </error>
         <error id="misra-c2012-12.3" severity="style" msg="The comma operator should not be used" verbose="The comma operator should not be used" file0="pipe_blaser_ros/src/laser_ring_calib.cpp.dump">
-            <location file="pipe_blaser_ros/src/laser_ring_calib.cpp" line="308" column="23"/>
+            <location file="pipe_blaser_ros/src/laser_ring_calib.cpp" line="309" column="23"/>
         </error>
         <error id="misra-c2012-12.3" severity="style" msg="The comma operator should not be used" verbose="The comma operator should not be used" file0="pipe_blaser_ros/src/laser_ring_calib.cpp.dump">
-            <location file="pipe_blaser_ros/src/laser_ring_calib.cpp" line="366" column="23"/>
+            <location file="pipe_blaser_ros/src/laser_ring_calib.cpp" line="367" column="23"/>
         </error>
         <error id="misra-c2012-12.3" severity="style" msg="The comma operator should not be used" verbose="The comma operator should not be used" file0="pipe_blaser_ros/src/laser_ring_calib.cpp.dump">
-            <location file="pipe_blaser_ros/src/laser_ring_calib.cpp" line="437" column="26"/>
-        </error>
-        <error id="misra-c2012-12.3" severity="style" msg="The comma operator should not be used" verbose="The comma operator should not be used" file0="pipe_blaser_ros/src/laser_ring_calib.cpp.dump">
-            <location file="pipe_blaser_ros/src/laser_ring_calib.cpp" line="455" column="12"/>
+            <location file="pipe_blaser_ros/src/laser_ring_calib.cpp" line="438" column="26"/>
         </error>
         <error id="misra-c2012-12.3" severity="style" msg="The comma operator should not be used" verbose="The comma operator should not be used" file0="pipe_blaser_ros/src/laser_ring_calib.cpp.dump">
             <location file="pipe_blaser_ros/src/laser_ring_calib.cpp" line="456" column="12"/>
         </error>
         <error id="misra-c2012-12.3" severity="style" msg="The comma operator should not be used" verbose="The comma operator should not be used" file0="pipe_blaser_ros/src/laser_ring_calib.cpp.dump">
-            <location file="pipe_blaser_ros/src/laser_ring_calib.cpp" line="459" column="26"/>
+            <location file="pipe_blaser_ros/src/laser_ring_calib.cpp" line="457" column="12"/>
         </error>
         <error id="misra-c2012-12.3" severity="style" msg="The comma operator should not be used" verbose="The comma operator should not be used" file0="pipe_blaser_ros/src/laser_ring_calib.cpp.dump">
-            <location file="pipe_blaser_ros/src/laser_ring_calib.cpp" line="473" column="15"/>
+            <location file="pipe_blaser_ros/src/laser_ring_calib.cpp" line="460" column="26"/>
         </error>
         <error id="misra-c2012-12.3" severity="style" msg="The comma operator should not be used" verbose="The comma operator should not be used" file0="pipe_blaser_ros/src/laser_ring_calib.cpp.dump">
-            <location file="pipe_blaser_ros/src/laser_ring_calib.cpp" line="573" column="42"/>
+            <location file="pipe_blaser_ros/src/laser_ring_calib.cpp" line="474" column="15"/>
         </error>
-        <error id="misra-c2012-13.5" severity="style" msg="The right hand operand of a logical &amp;&amp; or || operator shall not contain persistent side e\357\254\200ects" verbose="The right hand operand of a logical &amp;&amp; or || operator shall not contain persistent side e\357\254\200ects" file0="pipe_blaser_ros/src/laser_ring_calib.cpp.dump">
-            <location file="pipe_blaser_ros/src/laser_ring_calib.cpp" line="169" column="42"/>
+        <error id="misra-c2012-12.3" severity="style" msg="The comma operator should not be used" verbose="The comma operator should not be used" file0="pipe_blaser_ros/src/laser_ring_calib.cpp.dump">
+            <location file="pipe_blaser_ros/src/laser_ring_calib.cpp" line="574" column="42"/>
         </error>
         <error id="misra-c2012-12.3" severity="style" msg="The comma operator should not be used" verbose="The comma operator should not be used" file0="pipe_blaser_ros/src/laser_ring_detector.cpp.dump">
             <location file="pipe_blaser_ros/src/laser_ring_detector.cpp" line="27" column="20"/>
@@ -2720,25 +2690,19 @@
             <location file="pipe_blaser_ros/src/laser_ring_detector.cpp" line="160" column="27"/>
         </error>
         <error id="misra-c2012-12.3" severity="style" msg="The comma operator should not be used" verbose="The comma operator should not be used" file0="pipe_blaser_ros/src/laser_ring_detector.cpp.dump">
-            <location file="pipe_blaser_ros/src/laser_ring_detector.cpp" line="194" column="26"/>
+            <location file="pipe_blaser_ros/src/laser_ring_detector.cpp" line="200" column="26"/>
         </error>
         <error id="misra-c2012-12.3" severity="style" msg="The comma operator should not be used" verbose="The comma operator should not be used" file0="pipe_blaser_ros/src/laser_ring_detector.cpp.dump">
-            <location file="pipe_blaser_ros/src/laser_ring_detector.cpp" line="216" column="20"/>
+            <location file="pipe_blaser_ros/src/laser_ring_detector.cpp" line="222" column="20"/>
         </error>
         <error id="misra-c2012-12.3" severity="style" msg="The comma operator should not be used" verbose="The comma operator should not be used" file0="pipe_blaser_ros/src/laser_ring_detector.cpp.dump">
-            <location file="pipe_blaser_ros/src/laser_ring_detector.cpp" line="269" column="42"/>
+            <location file="pipe_blaser_ros/src/laser_ring_detector.cpp" line="275" column="42"/>
         </error>
         <error id="misra-c2012-12.3" severity="style" msg="The comma operator should not be used" verbose="The comma operator should not be used" file0="pipe_blaser_ros/src/laser_ring_detector.cpp.dump">
-            <location file="pipe_blaser_ros/src/laser_ring_detector.cpp" line="270" column="27"/>
+            <location file="pipe_blaser_ros/src/laser_ring_detector.cpp" line="276" column="27"/>
         </error>
         <error id="misra-c2012-12.3" severity="style" msg="The comma operator should not be used" verbose="The comma operator should not be used" file0="pipe_blaser_ros/src/laser_ring_detector.cpp.dump">
-            <location file="pipe_blaser_ros/src/laser_ring_detector.cpp" line="292" column="24"/>
-        </error>
-        <error id="misra-c2012-13.5" severity="style" msg="The right hand operand of a logical &amp;&amp; or || operator shall not contain persistent side e\357\254\200ects" verbose="The right hand operand of a logical &amp;&amp; or || operator shall not contain persistent side e\357\254\200ects" file0="pipe_blaser_ros/src/laser_ring_detector.cpp.dump">
-            <location file="pipe_blaser_ros/src/laser_ring_detector.cpp" line="161" column="35"/>
-        </error>
-        <error id="misra-c2012-13.5" severity="style" msg="The right hand operand of a logical &amp;&amp; or || operator shall not contain persistent side e\357\254\200ects" verbose="The right hand operand of a logical &amp;&amp; or || operator shall not contain persistent side e\357\254\200ects" file0="pipe_blaser_ros/src/laser_ring_detector.cpp.dump">
-            <location file="pipe_blaser_ros/src/laser_ring_detector.cpp" line="163" column="32"/>
+            <location file="pipe_blaser_ros/src/laser_ring_detector.cpp" line="298" column="24"/>
         </error>
         <error id="misra-c2012-12.3" severity="style" msg="The comma operator should not be used" verbose="The comma operator should not be used" file0="pipe_blaser_ros/src/map_abstraction.cpp.dump">
             <location file="pipe_blaser_ros/src/map_abstraction.cpp" line="72" column="23"/>
@@ -2821,333 +2785,6 @@
             <location file="blaser_slam/slam_estimator/src/test/vlio_scale_init_test.cpp" line="20" column="1"/>
             <symbol>LaserPoint</symbol>
         </error>
-        <error id="misra-c2012-5.6" severity="style" msg="A typedef name shall be a unique identifier" verbose="A typedef name shall be a unique identifier">
-            <location file="blaser_slam/slam_estimator/src/utility/utility.h" line="31" column="42"/>
-        </error>
-        <error id="misra-c2012-5.6" severity="style" msg="A typedef name shall be a unique identifier" verbose="A typedef name shall be a unique identifier">
-            <location file="blaser_slam/slam_estimator/src/utility/utility.h" line="136" column="42"/>
-        </error>
-        <error id="misra-c2012-5.6" severity="style" msg="A typedef name shall be a unique identifier" verbose="A typedef name shall be a unique identifier">
-            <location file="blaser_slam/slam_estimator/src/utility/utility.h" line="186" column="42"/>
-        </error>
-        <error id="misra-c2012-5.6" severity="style" msg="A typedef name shall be a unique identifier" verbose="A typedef name shall be a unique identifier">
-            <location file="blaser_slam/slam_estimator/src/ThirdParty/DBoW/TemplatedVocabulary.h" line="281" column="30"/>
-        </error>
-        <error id="misra-c2012-5.6" severity="style" msg="A typedef name shall be a unique identifier" verbose="A typedef name shall be a unique identifier">
-            <location file="blaser_slam/slam_estimator/src/ThirdParty/DBoW/FClass.h" line="28" column="30"/>
-        </error>
-        <error id="misra-c2012-5.6" severity="style" msg="A typedef name shall be a unique identifier" verbose="A typedef name shall be a unique identifier">
-            <location file="blaser_slam/slam_estimator/src/ThirdParty/DBoW/FBrief.h" line="28" column="30"/>
-        </error>
-        <error id="misra-c2012-5.6" severity="style" msg="A typedef name shall be a unique identifier" verbose="A typedef name shall be a unique identifier">
-            <location file="blaser_slam/slam_estimator/src/utility/nanoflann.hpp" line="144" column="25"/>
-        </error>
-        <error id="misra-c2012-5.6" severity="style" msg="A typedef name shall be a unique identifier" verbose="A typedef name shall be a unique identifier">
-            <location file="blaser_slam/slam_estimator/src/utility/nanoflann.hpp" line="222" column="25"/>
-        </error>
-        <error id="misra-c2012-5.6" severity="style" msg="A typedef name shall be a unique identifier" verbose="A typedef name shall be a unique identifier">
-            <location file="blaser_slam/slam_estimator/src/utility/nanoflann.hpp" line="145" column="22"/>
-        </error>
-        <error id="misra-c2012-5.6" severity="style" msg="A typedef name shall be a unique identifier" verbose="A typedef name shall be a unique identifier">
-            <location file="blaser_slam/slam_estimator/src/utility/nanoflann.hpp" line="223" column="22"/>
-        </error>
-        <error id="misra-c2012-5.6" severity="style" msg="A typedef name shall be a unique identifier" verbose="A typedef name shall be a unique identifier">
-            <location file="blaser_slam/slam_estimator/src/utility/nanoflann.hpp" line="326" column="25"/>
-        </error>
-        <error id="misra-c2012-5.6" severity="style" msg="A typedef name shall be a unique identifier" verbose="A typedef name shall be a unique identifier">
-            <location file="blaser_slam/slam_estimator/src/utility/nanoflann.hpp" line="325" column="13"/>
-        </error>
-        <error id="misra-c2012-5.6" severity="style" msg="A typedef name shall be a unique identifier" verbose="A typedef name shall be a unique identifier">
-            <location file="blaser_slam/slam_estimator/src/utility/nanoflann.hpp" line="376" column="13"/>
-        </error>
-        <error id="misra-c2012-5.6" severity="style" msg="A typedef name shall be a unique identifier" verbose="A typedef name shall be a unique identifier">
-            <location file="blaser_slam/slam_estimator/src/utility/nanoflann.hpp" line="377" column="25"/>
-        </error>
-        <error id="misra-c2012-5.6" severity="style" msg="A typedef name shall be a unique identifier" verbose="A typedef name shall be a unique identifier">
-            <location file="blaser_slam/slam_estimator/src/utility/nanoflann.hpp" line="424" column="13"/>
-        </error>
-        <error id="misra-c2012-5.6" severity="style" msg="A typedef name shall be a unique identifier" verbose="A typedef name shall be a unique identifier">
-            <location file="blaser_slam/slam_estimator/src/utility/nanoflann.hpp" line="425" column="25"/>
-        </error>
-        <error id="misra-c2012-5.6" severity="style" msg="A typedef name shall be a unique identifier" verbose="A typedef name shall be a unique identifier">
-            <location file="blaser_slam/slam_estimator/src/utility/nanoflann.hpp" line="456" column="13"/>
-        </error>
-        <error id="misra-c2012-5.6" severity="style" msg="A typedef name shall be a unique identifier" verbose="A typedef name shall be a unique identifier">
-            <location file="blaser_slam/slam_estimator/src/utility/nanoflann.hpp" line="457" column="25"/>
-        </error>
-        <error id="misra-c2012-5.6" severity="style" msg="A typedef name shall be a unique identifier" verbose="A typedef name shall be a unique identifier">
-            <location file="blaser_slam/slam_estimator/src/utility/nanoflann.hpp" line="491" column="13"/>
-        </error>
-        <error id="misra-c2012-5.6" severity="style" msg="A typedef name shall be a unique identifier" verbose="A typedef name shall be a unique identifier">
-            <location file="blaser_slam/slam_estimator/src/utility/nanoflann.hpp" line="492" column="25"/>
-        </error>
-        <error id="misra-c2012-5.6" severity="style" msg="A typedef name shall be a unique identifier" verbose="A typedef name shall be a unique identifier">
-            <location file="blaser_slam/slam_estimator/src/utility/nanoflann.hpp" line="513" column="39"/>
-        </error>
-        <error id="misra-c2012-5.6" severity="style" msg="A typedef name shall be a unique identifier" verbose="A typedef name shall be a unique identifier">
-            <location file="blaser_slam/slam_estimator/src/utility/nanoflann.hpp" line="519" column="39"/>
-        </error>
-        <error id="misra-c2012-5.6" severity="style" msg="A typedef name shall be a unique identifier" verbose="A typedef name shall be a unique identifier">
-            <location file="blaser_slam/slam_estimator/src/utility/nanoflann.hpp" line="525" column="46"/>
-        </error>
-        <error id="misra-c2012-5.6" severity="style" msg="A typedef name shall be a unique identifier" verbose="A typedef name shall be a unique identifier">
-            <location file="blaser_slam/slam_estimator/src/utility/nanoflann.hpp" line="531" column="40"/>
-        </error>
-        <error id="misra-c2012-5.6" severity="style" msg="A typedef name shall be a unique identifier" verbose="A typedef name shall be a unique identifier">
-            <location file="blaser_slam/slam_estimator/src/utility/nanoflann.hpp" line="537" column="40"/>
-        </error>
-        <error id="misra-c2012-5.6" severity="style" msg="A typedef name shall be a unique identifier" verbose="A typedef name shall be a unique identifier">
-            <location file="blaser_slam/slam_estimator/src/utility/nanoflann.hpp" line="717" column="30"/>
-        </error>
-        <error id="misra-c2012-5.6" severity="style" msg="A typedef name shall be a unique identifier" verbose="A typedef name shall be a unique identifier">
-            <location file="blaser_slam/slam_estimator/src/utility/nanoflann.hpp" line="721" column="26"/>
-        </error>
-        <error id="misra-c2012-5.6" severity="style" msg="A typedef name shall be a unique identifier" verbose="A typedef name shall be a unique identifier">
-            <location file="blaser_slam/slam_estimator/src/utility/nanoflann.hpp" line="751" column="42"/>
-        </error>
-        <error id="misra-c2012-5.6" severity="style" msg="A typedef name shall be a unique identifier" verbose="A typedef name shall be a unique identifier">
-            <location file="blaser_slam/slam_estimator/src/utility/nanoflann.hpp" line="752" column="43"/>
-        </error>
-        <error id="misra-c2012-5.6" severity="style" msg="A typedef name shall be a unique identifier" verbose="A typedef name shall be a unique identifier">
-            <location file="blaser_slam/slam_estimator/src/utility/nanoflann.hpp" line="1142" column="46"/>
-        </error>
-        <error id="misra-c2012-5.6" severity="style" msg="A typedef name shall be a unique identifier" verbose="A typedef name shall be a unique identifier">
-            <location file="blaser_slam/slam_estimator/src/utility/nanoflann.hpp" line="1143" column="47"/>
-        </error>
-        <error id="misra-c2012-5.6" severity="style" msg="A typedef name shall be a unique identifier" verbose="A typedef name shall be a unique identifier">
-            <location file="blaser_slam/slam_estimator/src/utility/nanoflann.hpp" line="770" column="17"/>
-        </error>
-        <error id="misra-c2012-5.6" severity="style" msg="A typedef name shall be a unique identifier" verbose="A typedef name shall be a unique identifier">
-            <location file="blaser_slam/slam_estimator/src/utility/nanoflann.hpp" line="1146" column="17"/>
-        </error>
-        <error id="misra-c2012-5.6" severity="style" msg="A typedef name shall be a unique identifier" verbose="A typedef name shall be a unique identifier">
-            <location file="blaser_slam/slam_estimator/src/utility/nanoflann.hpp" line="793" column="65"/>
-        </error>
-        <error id="misra-c2012-5.6" severity="style" msg="A typedef name shall be a unique identifier" verbose="A typedef name shall be a unique identifier">
-            <location file="blaser_slam/slam_estimator/src/utility/nanoflann.hpp" line="1151" column="46"/>
-        </error>
-        <error id="misra-c2012-5.6" severity="style" msg="A typedef name shall be a unique identifier" verbose="A typedef name shall be a unique identifier">
-            <location file="blaser_slam/slam_estimator/src/utility/nanoflann.hpp" line="798" column="7"/>
-        </error>
-        <error id="misra-c2012-5.6" severity="style" msg="A typedef name shall be a unique identifier" verbose="A typedef name shall be a unique identifier">
-            <location file="blaser_slam/slam_estimator/src/utility/nanoflann.hpp" line="1155" column="52"/>
-        </error>
-        <error id="misra-c2012-5.6" severity="style" msg="A typedef name shall be a unique identifier" verbose="A typedef name shall be a unique identifier">
-            <location file="blaser_slam/slam_estimator/src/utility/nanoflann.hpp" line="1140" column="7"/>
-        </error>
-        <error id="misra-c2012-5.6" severity="style" msg="A typedef name shall be a unique identifier" verbose="A typedef name shall be a unique identifier">
-            <location file="blaser_slam/slam_estimator/src/utility/nanoflann.hpp" line="1487" column="7"/>
-        </error>
-        <error id="misra-c2012-5.6" severity="style" msg="A typedef name shall be a unique identifier" verbose="A typedef name shall be a unique identifier">
-            <location file="blaser_slam/slam_estimator/src/utility/nanoflann.hpp" line="1489" column="46"/>
-        </error>
-        <error id="misra-c2012-5.6" severity="style" msg="A typedef name shall be a unique identifier" verbose="A typedef name shall be a unique identifier">
-            <location file="blaser_slam/slam_estimator/src/utility/nanoflann.hpp" line="1490" column="47"/>
-        </error>
-        <error id="misra-c2012-5.6" severity="style" msg="A typedef name shall be a unique identifier" verbose="A typedef name shall be a unique identifier">
-            <location file="blaser_slam/slam_estimator/src/utility/nanoflann.hpp" line="1145" column="39"/>
-        </error>
-        <error id="misra-c2012-5.6" severity="style" msg="A typedef name shall be a unique identifier" verbose="A typedef name shall be a unique identifier">
-            <location file="blaser_slam/slam_estimator/src/utility/nanoflann.hpp" line="1492" column="39"/>
-        </error>
-        <error id="misra-c2012-5.6" severity="style" msg="A typedef name shall be a unique identifier" verbose="A typedef name shall be a unique identifier">
-            <location file="blaser_slam/slam_estimator/src/utility/nanoflann.hpp" line="1493" column="17"/>
-        </error>
-        <error id="misra-c2012-5.6" severity="style" msg="A typedef name shall be a unique identifier" verbose="A typedef name shall be a unique identifier">
-            <location file="blaser_slam/slam_estimator/src/utility/nanoflann.hpp" line="1148" column="43"/>
-        </error>
-        <error id="misra-c2012-5.6" severity="style" msg="A typedef name shall be a unique identifier" verbose="A typedef name shall be a unique identifier">
-            <location file="blaser_slam/slam_estimator/src/utility/nanoflann.hpp" line="1495" column="43"/>
-        </error>
-        <error id="misra-c2012-5.6" severity="style" msg="A typedef name shall be a unique identifier" verbose="A typedef name shall be a unique identifier">
-            <location file="blaser_slam/slam_estimator/src/utility/nanoflann.hpp" line="1498" column="46"/>
-        </error>
-        <error id="misra-c2012-5.6" severity="style" msg="A typedef name shall be a unique identifier" verbose="A typedef name shall be a unique identifier">
-            <location file="blaser_slam/slam_estimator/src/utility/nanoflann.hpp" line="1502" column="52"/>
-        </error>
-        <error id="misra-c2012-5.6" severity="style" msg="A typedef name shall be a unique identifier" verbose="A typedef name shall be a unique identifier">
-            <location file="blaser_slam/slam_estimator/src/utility/nanoflann.hpp" line="1790" column="42"/>
-        </error>
-        <error id="misra-c2012-5.6" severity="style" msg="A typedef name shall be a unique identifier" verbose="A typedef name shall be a unique identifier">
-            <location file="blaser_slam/slam_estimator/src/utility/nanoflann.hpp" line="1791" column="43"/>
-        </error>
-        <error id="misra-c2012-5.6" severity="style" msg="A typedef name shall be a unique identifier" verbose="A typedef name shall be a unique identifier">
-            <location file="blaser_slam/slam_estimator/src/utility/nanoflann.hpp" line="1957" column="38"/>
-        </error>
-        <error id="misra-c2012-5.6" severity="style" msg="A typedef name shall be a unique identifier" verbose="A typedef name shall be a unique identifier">
-            <location file="blaser_slam/slam_estimator/src/laser/nanoflann_laser_uv.h" line="55" column="46"/>
-        </error>
-        <error id="misra-c2012-5.6" severity="style" msg="A typedef name shall be a unique identifier" verbose="A typedef name shall be a unique identifier">
-            <location file="blaser_slam/slam_estimator/src/laser/laser_frame.h" line="21" column="0"/>
-        </error>
-        <error id="misra-c2012-5.6" severity="style" msg="A typedef name shall be a unique identifier" verbose="A typedef name shall be a unique identifier">
-            <location file="blaser_slam/slam_estimator/src/laser/nanoflann_laser_uv.h" line="54" column="40"/>
-        </error>
-        <error id="misra-c2012-5.6" severity="style" msg="A typedef name shall be a unique identifier" verbose="A typedef name shall be a unique identifier">
-            <location file="blaser_slam/slam_estimator/src/laser/laser_frame.h" line="22" column="0"/>
-        </error>
-        <error id="misra-c2012-5.6" severity="style" msg="A typedef name shall be a unique identifier" verbose="A typedef name shall be a unique identifier">
-            <location file="blaser_slam/slam_estimator/src/laser/nanoflann_laser_points_2d.h" line="55" column="46"/>
-        </error>
-        <error id="misra-c2012-5.6" severity="style" msg="A typedef name shall be a unique identifier" verbose="A typedef name shall be a unique identifier">
-            <location file="blaser_slam/slam_estimator/src/laser/laser_manager.h" line="18" column="0"/>
-        </error>
-        <error id="misra-c2012-5.6" severity="style" msg="A typedef name shall be a unique identifier" verbose="A typedef name shall be a unique identifier">
-            <location file="blaser_slam/slam_estimator/src/laser/nanoflann_laser_points_2d.h" line="54" column="40"/>
-        </error>
-        <error id="misra-c2012-5.6" severity="style" msg="A typedef name shall be a unique identifier" verbose="A typedef name shall be a unique identifier">
-            <location file="blaser_slam/slam_estimator/src/laser/laser_manager.h" line="19" column="0"/>
-        </error>
-        <error id="misra-c2012-5.6" severity="style" msg="A typedef name shall be a unique identifier" verbose="A typedef name shall be a unique identifier">
-            <location file="blaser_slam/slam_estimator/src/laser/laser_manager.h" line="20" column="0"/>
-        </error>
-        <error id="misra-c2012-5.6" severity="style" msg="A typedef name shall be a unique identifier" verbose="A typedef name shall be a unique identifier">
-            <location file="blaser_slam/slam_estimator/src/laser/laser_manager.h" line="21" column="0"/>
-        </error>
-        <error id="misra-c2012-5.6" severity="style" msg="A typedef name shall be a unique identifier" verbose="A typedef name shall be a unique identifier">
-            <location file="blaser_slam/slam_estimator/src/factor/laser_2d_factor.cpp" line="15" column="0"/>
-        </error>
-        <error id="misra-c2012-5.6" severity="style" msg="A typedef name shall be a unique identifier" verbose="A typedef name shall be a unique identifier">
-            <location file="blaser_slam/slam_estimator/src/factor/laser_3d_factor.cpp" line="9" column="0"/>
-        </error>
-        <error id="misra-c2012-5.6" severity="style" msg="A typedef name shall be a unique identifier" verbose="A typedef name shall be a unique identifier">
-            <location file="blaser_slam/slam_estimator/src/factor/laser_2d_factor.cpp" line="16" column="0"/>
-        </error>
-        <error id="misra-c2012-5.6" severity="style" msg="A typedef name shall be a unique identifier" verbose="A typedef name shall be a unique identifier">
-            <location file="blaser_slam/slam_estimator/src/factor/laser_3d_factor.cpp" line="10" column="0"/>
-        </error>
-        <error id="misra-c2012-5.6" severity="style" msg="A typedef name shall be a unique identifier" verbose="A typedef name shall be a unique identifier">
-            <location file="blaser_slam/slam_estimator/src/factor/lidar_2d_factor.cpp" line="15" column="0"/>
-        </error>
-        <error id="misra-c2012-5.6" severity="style" msg="A typedef name shall be a unique identifier" verbose="A typedef name shall be a unique identifier">
-            <location file="blaser_slam/slam_estimator/src/factor/lidar_2d_factor.cpp" line="16" column="0"/>
-        </error>
-        <error id="misra-c2012-5.6" severity="style" msg="A typedef name shall be a unique identifier" verbose="A typedef name shall be a unique identifier">
-            <location file="blaser_slam/slam_estimator/src/laser/laser_manager.cpp" line="16" column="0"/>
-        </error>
-        <error id="misra-c2012-5.6" severity="style" msg="A typedef name shall be a unique identifier" verbose="A typedef name shall be a unique identifier">
-            <location file="blaser_slam/slam_estimator/src/laser/laser_manager.cpp" line="17" column="0"/>
-        </error>
-        <error id="misra-c2012-5.6" severity="style" msg="A typedef name shall be a unique identifier" verbose="A typedef name shall be a unique identifier">
-            <location file="blaser_slam/slam_estimator/src/utility/MATio" line="38" column="58"/>
-        </error>
-        <error id="misra-c2012-5.6" severity="style" msg="A typedef name shall be a unique identifier" verbose="A typedef name shall be a unique identifier">
-            <location file="blaser_slam/slam_estimator/src/utility/MATio" line="39" column="59"/>
-        </error>
-        <error id="misra-c2012-5.6" severity="style" msg="A typedef name shall be a unique identifier" verbose="A typedef name shall be a unique identifier">
-            <location file="blaser_slam/slam_estimator/src/utility/MATio" line="40" column="59"/>
-        </error>
-        <error id="misra-c2012-5.6" severity="style" msg="A typedef name shall be a unique identifier" verbose="A typedef name shall be a unique identifier">
-            <location file="blaser_slam/slam_estimator/src/utility/MATio" line="41" column="60"/>
-        </error>
-        <error id="misra-c2012-5.6" severity="style" msg="A typedef name shall be a unique identifier" verbose="A typedef name shall be a unique identifier">
-            <location file="blaser_slam/slam_estimator/src/utility/MATio" line="42" column="59"/>
-        </error>
-        <error id="misra-c2012-5.6" severity="style" msg="A typedef name shall be a unique identifier" verbose="A typedef name shall be a unique identifier">
-            <location file="blaser_slam/slam_estimator/src/utility/MATio" line="43" column="60"/>
-        </error>
-        <error id="misra-c2012-5.6" severity="style" msg="A typedef name shall be a unique identifier" verbose="A typedef name shall be a unique identifier">
-            <location file="blaser_slam/slam_estimator/src/utility/MATio" line="44" column="57"/>
-        </error>
-        <error id="misra-c2012-5.6" severity="style" msg="A typedef name shall be a unique identifier" verbose="A typedef name shall be a unique identifier">
-            <location file="blaser_slam/slam_estimator/src/utility/MATio" line="45" column="58"/>
-        </error>
-        <error id="misra-c2012-5.6" severity="style" msg="A typedef name shall be a unique identifier" verbose="A typedef name shall be a unique identifier">
-            <location file="blaser_slam/slam_estimator/src/utility/MATio" line="46" column="61"/>
-        </error>
-        <error id="misra-c2012-5.6" severity="style" msg="A typedef name shall be a unique identifier" verbose="A typedef name shall be a unique identifier">
-            <location file="blaser_slam/slam_estimator/src/utility/MATio" line="47" column="59"/>
-        </error>
-        <error id="misra-c2012-5.6" severity="style" msg="A typedef name shall be a unique identifier" verbose="A typedef name shall be a unique identifier">
-            <location file="blaser_slam/slam_estimator/src/utility/MATio" line="48" column="60"/>
-        </error>
-        <error id="misra-c2012-5.6" severity="style" msg="A typedef name shall be a unique identifier" verbose="A typedef name shall be a unique identifier">
-            <location file="blaser_slam/slam_estimator/src/utility/MATio" line="61" column="41"/>
-        </error>
-        <error id="misra-c2012-5.6" severity="style" msg="A typedef name shall be a unique identifier" verbose="A typedef name shall be a unique identifier">
-            <location file="blaser_slam/slam_estimator/src/utility/MATio" line="98" column="64"/>
-        </error>
-        <error id="misra-c2012-5.6" severity="style" msg="A typedef name shall be a unique identifier" verbose="A typedef name shall be a unique identifier">
-            <location file="blaser_slam/slam_estimator/src/utility/MATio" line="99" column="64"/>
-        </error>
-        <error id="misra-c2012-5.6" severity="style" msg="A typedef name shall be a unique identifier" verbose="A typedef name shall be a unique identifier">
-            <location file="blaser_slam/slam_estimator/src/utility/MATio" line="100" column="64"/>
-        </error>
-        <error id="misra-c2012-5.6" severity="style" msg="A typedef name shall be a unique identifier" verbose="A typedef name shall be a unique identifier">
-            <location file="blaser_slam/slam_estimator/src/utility/MATio" line="101" column="64"/>
-        </error>
-        <error id="misra-c2012-5.6" severity="style" msg="A typedef name shall be a unique identifier" verbose="A typedef name shall be a unique identifier">
-            <location file="blaser_slam/slam_estimator/src/utility/MATio" line="102" column="64"/>
-        </error>
-        <error id="misra-c2012-5.6" severity="style" msg="A typedef name shall be a unique identifier" verbose="A typedef name shall be a unique identifier">
-            <location file="blaser_slam/slam_estimator/src/utility/MATio" line="103" column="64"/>
-        </error>
-        <error id="misra-c2012-5.6" severity="style" msg="A typedef name shall be a unique identifier" verbose="A typedef name shall be a unique identifier">
-            <location file="blaser_slam/slam_estimator/src/utility/MATio" line="104" column="64"/>
-        </error>
-        <error id="misra-c2012-5.6" severity="style" msg="A typedef name shall be a unique identifier" verbose="A typedef name shall be a unique identifier">
-            <location file="blaser_slam/slam_estimator/src/utility/MATio" line="105" column="64"/>
-        </error>
-        <error id="misra-c2012-5.6" severity="style" msg="A typedef name shall be a unique identifier" verbose="A typedef name shall be a unique identifier">
-            <location file="blaser_slam/slam_estimator/src/utility/MATio" line="106" column="64"/>
-        </error>
-        <error id="misra-c2012-5.6" severity="style" msg="A typedef name shall be a unique identifier" verbose="A typedef name shall be a unique identifier">
-            <location file="blaser_slam/slam_estimator/src/utility/MATio" line="107" column="64"/>
-        </error>
-        <error id="misra-c2012-5.6" severity="style" msg="A typedef name shall be a unique identifier" verbose="A typedef name shall be a unique identifier">
-            <location file="blaser_slam/slam_estimator/src/utility/MATio" line="109" column="63"/>
-        </error>
-        <error id="misra-c2012-5.6" severity="style" msg="A typedef name shall be a unique identifier" verbose="A typedef name shall be a unique identifier">
-            <location file="blaser_slam/slam_estimator/src/utility/MATio" line="320" column="38"/>
-        </error>
-        <error id="misra-c2012-5.6" severity="style" msg="A typedef name shall be a unique identifier" verbose="A typedef name shall be a unique identifier">
-            <location file="blaser_slam/slam_estimator/src/utility/MATio" line="331" column="38"/>
-        </error>
-        <error id="misra-c2012-5.6" severity="style" msg="A typedef name shall be a unique identifier" verbose="A typedef name shall be a unique identifier">
-            <location file="blaser_slam/slam_estimator/src/utility/MATio" line="402" column="5"/>
-        </error>
-        <error id="misra-c2012-5.6" severity="style" msg="A typedef name shall be a unique identifier" verbose="A typedef name shall be a unique identifier">
-            <location file="blaser_slam/slam_estimator/src/utility/MATio" line="403" column="5"/>
-        </error>
-        <error id="misra-c2012-5.6" severity="style" msg="A typedef name shall be a unique identifier" verbose="A typedef name shall be a unique identifier">
-            <location file="blaser_slam/slam_estimator/src/utility/MATio" line="404" column="5"/>
-        </error>
-        <error id="misra-c2012-5.6" severity="style" msg="A typedef name shall be a unique identifier" verbose="A typedef name shall be a unique identifier">
-            <location file="blaser_slam/slam_estimator/src/utility/MATio" line="405" column="5"/>
-        </error>
-        <error id="misra-c2012-5.6" severity="style" msg="A typedef name shall be a unique identifier" verbose="A typedef name shall be a unique identifier">
-            <location file="blaser_slam/slam_estimator/src/utility/MATio" line="406" column="5"/>
-        </error>
-        <error id="misra-c2012-5.6" severity="style" msg="A typedef name shall be a unique identifier" verbose="A typedef name shall be a unique identifier">
-            <location file="blaser_slam/slam_estimator/src/utility/MATio" line="407" column="5"/>
-        </error>
-        <error id="misra-c2012-5.6" severity="style" msg="A typedef name shall be a unique identifier" verbose="A typedef name shall be a unique identifier">
-            <location file="blaser_slam/slam_estimator/src/utility/MATio" line="408" column="5"/>
-        </error>
-        <error id="misra-c2012-5.6" severity="style" msg="A typedef name shall be a unique identifier" verbose="A typedef name shall be a unique identifier">
-            <location file="blaser_slam/slam_estimator/src/utility/MATio" line="409" column="5"/>
-        </error>
-        <error id="misra-c2012-5.6" severity="style" msg="A typedef name shall be a unique identifier" verbose="A typedef name shall be a unique identifier">
-            <location file="blaser_slam/slam_estimator/src/utility/MATio" line="410" column="5"/>
-        </error>
-        <error id="misra-c2012-5.6" severity="style" msg="A typedef name shall be a unique identifier" verbose="A typedef name shall be a unique identifier">
-            <location file="blaser_slam/slam_estimator/src/utility/MATio" line="411" column="5"/>
-        </error>
-        <error id="misra-c2012-5.6" severity="style" msg="A typedef name shall be a unique identifier" verbose="A typedef name shall be a unique identifier">
-            <location file="blaser_slam/slam_estimator/src/test/vlio_scale_init_test.cpp" line="10" column="0"/>
-        </error>
-        <error id="misra-c2012-5.6" severity="style" msg="A typedef name shall be a unique identifier" verbose="A typedef name shall be a unique identifier">
-            <location file="blaser_slam/slam_estimator/src/test/vlio_scale_init_test.cpp" line="11" column="0"/>
-        </error>
-        <error id="misra-c2012-5.6" severity="style" msg="A typedef name shall be a unique identifier" verbose="A typedef name shall be a unique identifier">
-            <location file="pipe_blaser_ros/src/fisheye_mask_generator.cpp" line="14" column="0"/>
-        </error>
-        <error id="misra-c2012-5.6" severity="style" msg="A typedef name shall be a unique identifier" verbose="A typedef name shall be a unique identifier">
-            <location file="pipe_blaser_ros/src/laser_ring_calib.cpp" line="11" column="0"/>
-        </error>
-        <error id="misra-c2012-5.6" severity="style" msg="A typedef name shall be a unique identifier" verbose="A typedef name shall be a unique identifier">
-            <location file="pipe_blaser_ros/src/laser_ring_detector.cpp" line="12" column="0"/>
-        </error>
         <error id="misra-c2012-2.3" severity="style" msg="A project should not contain unused type declarations" verbose="A project should not contain unused type declarations">
             <location file="blaser_slam/slam_estimator/src/ThirdParty/DBoW/BowVector.h" line="26" column="22"/>
         </error>
@@ -3176,7 +2813,7 @@
             <location file="blaser_slam/slam_estimator/src/utility/nanoflann.hpp" line="717" column="30"/>
         </error>
         <error id="misra-c2012-2.3" severity="style" msg="A project should not contain unused type declarations" verbose="A project should not contain unused type declarations">
-            <location file="blaser_slam/slam_estimator/src/utility/nanoflann.hpp" line="1148" column="43"/>
+            <location file="blaser_slam/slam_estimator/src/utility/nanoflann.hpp" line="1154" column="43"/>
         </error>
         <error id="misra-c2012-2.3" severity="style" msg="A project should not contain unused type declarations" verbose="A project should not contain unused type declarations">
             <location file="blaser_slam/slam_estimator/src/factor/laser_2d_factor.cpp" line="15" column="0"/>

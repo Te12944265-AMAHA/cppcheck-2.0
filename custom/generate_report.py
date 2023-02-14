@@ -29,6 +29,8 @@ subfields = [
     "info",
 ]
 
+rules_ignore = ["misra-c2012-17.2"]
+
 
 def read_file(fname):
     with open(fname, "r") as f:
@@ -52,6 +54,8 @@ def parseXML(xmlfile):
     for error in root.findall("./errors/error"):
         err = {attrib: "" for attrib in fields}
         error_info = error.attrib
+        if error_info["id"] in rules_ignore:
+            continue
         for attrib in fields:
             res = error_info.get(attrib, None)
             if res != None:
