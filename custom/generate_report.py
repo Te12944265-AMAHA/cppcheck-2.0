@@ -198,9 +198,14 @@ def main():
                     + lines[i + 3][cnt_pos + 2 :]
                 )
                 cell_class_pos = lines[i + 3].find("tg-") + 3
+                rule_cat = rules[rule_id]["category"]
                 lines[i + 3] = (
                     lines[i + 3][:cell_class_pos]
-                    + "r31r"
+                    + (
+                        "r31r"
+                        if rule_cat in ["Mandatory", "Required"]
+                        else "lyak"
+                    )
                     + lines[i + 3][cell_class_pos + 4 :]
                 )
             i += 4

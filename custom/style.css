@@ -22,4 +22,6 @@ li {
 ol {
     margin: 0;
     margin-left: 14px;
+    margin-top: 4px;
+    margin-bottom: 4px;
 }
