@@ -7,7 +7,7 @@ import csv
 import xml.etree.ElementTree as ET
 import jinja2
 import pdfkit
-from datetime import datetime
+import subprocess
 
 fields = [
     "id",
@@ -160,14 +160,28 @@ def main():
     if vio_adv > 1:
         advisory_str += "s"
 
-    today_date = datetime.today().strftime("%m/%d/%Y")
+    if vio_mand + vio_req == 0:
+        note_str = "No critical violation detected"
+    else:
+        note_str = "N/A"
+
+    commit_str = subprocess.getoutput(
+        "cd /home/tina/Documents/catkin_ws/src/blaser_mapping && git log -1"
+        " --format=%h\ \%cd --date=local"
+    )
+    print("The exit code was: ", commit_str)
+    commit_str_break = commit_str.find(" ")
+    date_str = commit_str[commit_str_break + 1 :]
+    commit_str = commit_str[:commit_str_break]
 
     context = {
         "compliance_str": compliance_str,
         "mandatory_str": mandatory_str,
         "required_str": required_str,
         "advisory_str": advisory_str,
-        "today_date": today_date,
+        "commit_str": commit_str,
+        "date_str": date_str,
+        "note_str": note_str,
     }
 
     html_template = read_file("table_template.html")
@@ -191,22 +205,24 @@ def main():
             rule_id = line[has_rule + 5 : rule_end]
             cnt = rule_violation_cnt[rule_id]
             if cnt > 0:
-                cnt_pos = lines[i + 3].find(">")
-                lines[i + 3] = (
-                    lines[i + 3][: cnt_pos + 1]
-                    + str(cnt)
-                    + lines[i + 3][cnt_pos + 2 :]
-                )
-                cell_class_pos = lines[i + 3].find("tg-") + 3
                 rule_cat = rules[rule_id]["category"]
-                lines[i + 3] = (
-                    lines[i + 3][:cell_class_pos]
-                    + (
-                        "r31r"
-                        if rule_cat in ["Mandatory", "Required"]
-                        else "lyak"
-                    )
-                    + lines[i + 3][cell_class_pos + 4 :]
+                if rule_cat in ["Mandatory", "Required"]:
+                    line_offset = 3
+                    cell_class = "r31r"
+                else:
+                    line_offset = 2
+                    cell_class = "lyak"
+                cnt_pos = lines[i + line_offset].find(">")
+                lines[i + line_offset] = (
+                    lines[i + line_offset][: cnt_pos + 1]
+                    + str(cnt)
+                    + lines[i + line_offset][cnt_pos + 2 :]
+                )
+                cell_class_pos = lines[i + line_offset].find("tg-") + 3
+                lines[i + line_offset] = (
+                    lines[i + line_offset][:cell_class_pos]
+                    + cell_class
+                    + lines[i + line_offset][cell_class_pos + 4 :]
                 )
             i += 4
         else:
