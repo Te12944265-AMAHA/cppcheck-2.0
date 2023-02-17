@@ -169,7 +169,15 @@ def main():
         "cd /home/tina/Documents/catkin_ws/src/blaser_mapping && git log -1"
         " --format=%h\ \%cd --date=local"
     )
+    commit_url_str = subprocess.getoutput(
+        "cd /home/tina/Documents/catkin_ws/src/blaser_mapping && "
+        "git rev-parse HEAD"
+    )
     print("The exit code was: ", commit_str)
+    commit_url_str = (
+        "https://github.com/biorobotics/blaser_mapping/commit/" + commit_url_str
+    )
+    print(commit_url_str)
     commit_str_break = commit_str.find(" ")
     date_str = commit_str[commit_str_break + 1 :]
     commit_str = commit_str[:commit_str_break]
@@ -194,6 +202,14 @@ def main():
             else:
                 lines_before_tbody.pop(i + 2)
             break
+    for i, line in enumerate(lines_before_tbody):
+        if line.find("Target Build:") >= 0:
+            url_insert_pos = lines_before_tbody[i + 1].find('"')
+            lines_before_tbody[i + 1] = (
+                lines_before_tbody[i + 1][: url_insert_pos + 1]
+                + commit_url_str
+                + lines_before_tbody[i + 1][url_insert_pos + 1 :]
+            )
 
     lines = html_template[pos_table_body_start:].splitlines()
     i = 0
